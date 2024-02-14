@@ -30,7 +30,7 @@
                 <input
                   id="triangle-base"
                   class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
-                  type="text"
+                  type="number"
                   placeholder="b"
                 />
                 <span class="mr-4 ml-2">cm</span>
@@ -38,7 +38,7 @@
                 <input
                   id="triangle-height"
                   class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
-                  type="text"
+                  type="number"
                   placeholder="h"
                 />
 
@@ -68,13 +68,13 @@
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="images/rectangle.png" alt="rectangle" /></figure>
             <div class="card-body">
-              <h2 class="card-title m-auto">Triangle</h2>
+              <h2 class="card-title m-auto">Rectangle</h2>
               <p class="text-center mb-5 text-3xl">Area (A) = w x l</p>
               <div class="m-auto mb-8">
                 <input
                   id="rectangle-length"
                   class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
-                  type="text"
+                  type="number"
                   placeholder="w"
                 />
                 <span class="mr-4 ml-2">cm</span>
@@ -82,7 +82,7 @@
                 <input
                   id="rectangle-width"
                   class="w-24 text-2xl p-2 rounded-sm bg-gray-100"
-                  type="text"
+                  type="number"
                   placeholder="l"
                 />
 
@@ -98,7 +98,7 @@
 
               <div class="card-actions">
                 <button
-                  onclick="calculateTriangleArea()"
+                  onclick="calculateRectangleArea()"
                   class="btn btn-primary w-full"
                 >
                   Calculate
